@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kittystore/static/css/main.8f4db08c.chunk.css",
+    "main.js": "/kittystore/static/js/main.655675c1.chunk.js",
+    "main.js.map": "/kittystore/static/js/main.655675c1.chunk.js.map",
+    "runtime-main.js": "/kittystore/static/js/runtime-main.0c6add09.js",
+    "runtime-main.js.map": "/kittystore/static/js/runtime-main.0c6add09.js.map",
+    "static/js/2.4f6462e0.chunk.js": "/kittystore/static/js/2.4f6462e0.chunk.js",
+    "static/js/2.4f6462e0.chunk.js.map": "/kittystore/static/js/2.4f6462e0.chunk.js.map",
+    "index.html": "/kittystore/index.html",
+    "static/css/main.8f4db08c.chunk.css.map": "/kittystore/static/css/main.8f4db08c.chunk.css.map",
+    "static/js/2.4f6462e0.chunk.js.LICENSE.txt": "/kittystore/static/js/2.4f6462e0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c6add09.js",
+    "static/js/2.4f6462e0.chunk.js",
+    "static/css/main.8f4db08c.chunk.css",
+    "static/js/main.655675c1.chunk.js"
+  ]
+}
