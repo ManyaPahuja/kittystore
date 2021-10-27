@@ -12,16 +12,16 @@ function ScrollImages() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="fash3.jpg" className="d-block w-100" alt="..." />
+                        <img src="fash3.jpg" alt="img" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="fash6.jpg" className="d-block w-100"  alt="..." />
+                        <img src="fash6.jpg" alt="img" className="d-block w-100"  alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="fash2.jpg" className="d-block w-100"   alt="..." />
+                        <img src="fash2.jpg" alt="img" className="d-block w-100"   alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="fash4.jpg" className="d-block w-100"   alt="..." />
+                        <img src="fash4.jpg" alt="img" className="d-block w-100"   alt="..." />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
