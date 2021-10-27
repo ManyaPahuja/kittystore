@@ -25,10 +25,6 @@ function AdvtContainer() {
                     <img src="1.4jpg.jpg" alt="img" onClick={() => history.push("/clothes/tops")} height="100%" width="100%" />
 
                     </div>
-                    {/* <div className="innerbox">
-                    <img src="fash10.jpg" height="100%" width="100%" />
-
-                    </div> */}
                 </div>
             </div>
             
@@ -70,10 +66,6 @@ function AdvtContainer() {
                     <img src="makeup3.jpg" alt="img" height="100%" width="100%" />
 
                     </div>
-                    {/* <div className="innerbox">
-                    <img src="fash10.jpg" height="100%" width="100%" />
-
-                    </div> */}
                 </div>
             </div>
             <div className="advt-container-5 flex-center">

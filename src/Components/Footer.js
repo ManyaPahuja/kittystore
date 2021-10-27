@@ -27,18 +27,18 @@ function Footer() {
                 <div className="content">
                     <div className="place">
                     
-                       <span className="logo"><img  src="location.jpg"/></span>
+                       <span className="logo"><img  src="location.jpg" alt="img"/></span>
                         <span className="text">Dwarka sec-8, New Delhi</span>  <br/>
                        
                  </div> <br/>
                  <div className="phone">
-                     <span className="logo"><img  src="phone.jpg"/></span>
+                     <span className="logo"><img  src="phone.jpg" alt="img"/></span>
                         <span className="text">+91-5842695428</span>
                  </div> <br/>
 
                  <div className="mail">
                      
-                     <span className="logo"><img  src="email.jpg"/></span>
+                     <span className="logo"><img  src="email.jpg" alt="img"/></span>
                         <span className="text">example1234@gmail.com</span>
                  </div>
                 </div>
