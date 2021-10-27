@@ -14,7 +14,7 @@ import Jeans from '../Components/Jeans';
 function Routes() {
     return (
         <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/kittystore" exact component={Home} />
             <Route path="/login" exact component={Login} />
             <Route path="/clothes/dresses" exact component={Clothes} />
             <Route path="/clothes/jackets-coats" exact component={JacketsAndCoats} />
