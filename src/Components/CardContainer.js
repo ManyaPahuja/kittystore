@@ -7,7 +7,7 @@ function CardContainer(props) {
             <div className="card-container" id={item.id}>
                 <div className="card">
                     <div className="card-img">
-                        <img src={item.img} alt="img" height="100%" width='100%' />
+                        <img src={item.img} alt="..." height="100%" width='100%' />
                     </div>
                     <div className="card-name">
                         {item.name}
