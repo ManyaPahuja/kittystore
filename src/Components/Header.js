@@ -1,23 +1,25 @@
 import React, { } from 'react'
+import { useHistory } from 'react-router-dom';
 
 function Header() {
+    const history = useHistory();
     return (
         <div className="main-navbar sticky-top">
             <nav className="navbar navbar-expand-md navbar-dark">
-                <a className="navbar-brand ml-lg-5 ml-md-4 ml-sm-3" href="/">
+                <span className="navbar-brand ml-lg-5 ml-md-4 ml-sm-3" style={{cursor: "pointer"}} onClick={() => history.push("/")} >
                     <h4 className="brand-name">KiTTySTore </h4>
                     <p className = 'tagline'>only for girls</p>
-                </a>
+                </span>
                 <div className="collapse navbar-collapse flex-center" id="navbarText" >
                     <ul className="navbar-nav" style={{maxHeight:"40px",height:"40px",display:"flex",flexDirection:"row",alignItems:"center"}}>
-                        <li className="nav-item active" style={{minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
-                            <a className="nav-link" style={{padding:"0px"}} href="/clothes/dresses">Clothes<span className="sr-only">(current)</span></a>
+                        <li className="nav-item active" onClick={() => history.push("/clothes/dresses")} style={{cursor: "pointer", minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
+                            <div className="nav-link" style={{padding:"0px"}} >Clothes<span className="sr-only">(current)</span></div>
                         </li>
-                        <li className="nav-item" style={{minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
-                            <a className="nav-link" style={{padding:"0px"}} href="/footwear/sandals">Footwear</a>
+                        <li className="nav-item" onClick={() => history.push("/footwear/sandals")} style={{cursor: "pointer", minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
+                            <div className="nav-link" style={{padding:"0px"}} >Footwear</div>
                         </li>
-                        <li className="nav-item" style={{minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
-                            <a className="nav-link" style={{padding:"0px"}} href="/beauty">Skincare</a>
+                        <li className="nav-item" onClick={() => history.push("/beauty")} style={{cursor: "pointer", minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
+                            <div className="nav-link" style={{padding:"0px"}} >Skincare</div>
                         </li>
                         {/* <li className="nav-item" style={{minWidth:"70px",maxHeight:"40px",display:"flex",flexDirection:"row",justifyContent:"center"}}>
                             <a className="nav-link" style={{padding:"0px"}} href="/">SKIN</a>
